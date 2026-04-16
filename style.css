@@ -1,0 +1,216 @@
+/* =============================================
+   style.css — Pokémon LeafGreen Scratch Page
+   Will Rushing | BYU Web Dev Final Project
+   ============================================= */
+
+/* ---- Base & Font ---- */
+body {
+  font-family: 'Trebuchet MS', Tahoma, sans-serif;
+  background-color: #1a3a1a;
+  color: #e8f5e9;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- Header ---- */
+#site-header {
+  background-color: #0d2b0d;
+  text-align: center;
+  padding: 30px 20px 20px;
+  border-bottom: 4px solid #4caf50;
+}
+
+#site-header h1 {
+  font-size: 3rem;
+  color: #69d26d;
+  text-shadow: 3px 3px 0px #0d2b0d, 0 0 20px #4caf50;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+}
+
+#site-header p.tagline {
+  color: #a5d6a7;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/* ---- Navigation ---- */
+nav#main-nav {
+  background-color: #2e7d32;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid #69d26d;
+}
+
+nav#main-nav a {
+  color: #e8f5e9;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+nav#main-nav a:hover {
+  color: #b9f6ca;
+  text-decoration: underline;
+}
+
+/* ---- Main Content Wrapper ---- */
+#main-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* ---- Section Headings ---- */
+h2.section-heading {
+  font-size: 1.8rem;
+  color: #69d26d;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 8px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* ---- Intro Div ---- */
+div#intro-block {
+  background-color: #1b5e20;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-left: 5px solid #69d26d;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #dcedc8;
+}
+
+/* ---- Pokemon Image ---- */
+div#hero-image {
+  text-align: center;
+  margin: 30px 0;
+}
+
+div#hero-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  border: 3px solid #4caf50;
+  box-shadow: 0 0 20px rgba(105, 210, 109, 0.4);
+}
+
+div#hero-image p.caption {
+  color: #a5d6a7;
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+/* ---- Starters Section ---- */
+div#starters-block {
+  background-color: #1b5e20;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+}
+
+div#starters-block ol {
+  color: #c8e6c9;
+  font-size: 1.05rem;
+  line-height: 2;
+}
+
+div#starters-block ol li ul {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+div#starters-block ol li ul li {
+  color: #a5d6a7;
+  font-size: 0.95rem;
+}
+
+/* ---- Video Section ---- */
+div#video-block {
+  text-align: center;
+  margin: 30px 0;
+  background: #0d2b0d;
+  border-radius: 12px;
+  padding: 25px;
+  border: 2px solid #4caf50;
+}
+
+div#video-block h2 {
+  color: #69d26d;
+  margin-bottom: 16px;
+}
+
+div#video-block iframe {
+  border-radius: 8px;
+  border: 3px solid #4caf50;
+  max-width: 100%;
+}
+
+/* ---- Tableau Block ---- */
+div#tableau-block {
+  background: #0d2b0d;
+  border-radius: 12px;
+  padding: 25px 20px;
+  margin: 30px 0;
+  border: 2px solid #4caf50;
+  text-align: center;
+}
+
+/* ---- Tips List ---- */
+div#tips-block {
+  background-color: #1b5e20;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+}
+
+div#tips-block ul {
+  color: #c8e6c9;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+/* ---- Anchor Highlight ---- */
+span.anchor-target {
+  display: block;
+  height: 60px;
+  margin-top: -60px;
+}
+
+/* ---- Link Button ---- */
+a.poke-btn {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: #e8f5e9;
+  border: 2px solid #69d26d;
+  border-radius: 8px;
+  padding: 10px 22px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 8px 5px;
+  transition: background 0.2s;
+}
+
+a.poke-btn:hover {
+  background-color: #4caf50;
+  color: #0d2b0d;
+}
+
+/* ---- Footer ---- */
+footer#site-footer {
+  background-color: #0d2b0d;
+  text-align: center;
+  color: #a5d6a7;
+  padding: 20px;
+  font-size: 0.9rem;
+  border-top: 3px solid #4caf50;
+  margin-top: 50px;
+}

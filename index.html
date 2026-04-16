@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Will Rushing | Finance & Business</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    :root {
+      --navy: #1a2e4a;
+      --gold: #c9a84c;
+    }
+    body { font-family: 'Segoe UI', sans-serif; color: #222; }
+
+    /* NAVBAR */
+    .navbar { background-color: var(--navy); }
+    .navbar-brand, .nav-link { color: #fff !important; }
+    .nav-link:hover { color: var(--gold) !important; }
+
+    /* HERO */
+    #hero {
+      background: linear-gradient(135deg, var(--navy) 60%, #2d5282 100%);
+      color: #fff;
+      padding: 100px 0 80px;
+    }
+    #hero h1 { font-size: 3rem; font-weight: 700; }
+    #hero .subtitle { color: var(--gold); font-size: 1.2rem; letter-spacing: 1px; }
+    #hero .lead { color: #ccd6f6; }
+    .btn-gold { background-color: var(--gold); color: #fff; border: none; }
+    .btn-gold:hover { background-color: #b8973d; color: #fff; }
+
+    /* SECTIONS */
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--navy);
+      border-left: 5px solid var(--gold);
+      padding-left: 14px;
+      margin-bottom: 30px;
+    }
+    section { padding: 70px 0; }
+    section:nth-of-type(even) { background-color: #f8f9fb; }
+
+    /* RESUME CARDS */
+    .resume-card {
+      border: none;
+      border-left: 4px solid var(--gold);
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      margin-bottom: 20px;
+      padding: 20px 24px;
+      background: #fff;
+    }
+    .resume-card h5 { color: var(--navy); font-weight: 700; margin-bottom: 2px; }
+    .resume-card .date-loc { color: #888; font-size: 0.88rem; }
+    .resume-card ul { padding-left: 18px; margin-top: 8px; }
+    .resume-card ul li { margin-bottom: 4px; font-size: 0.95rem; }
+
+    /* SKILLS */
+    .skill-badge {
+      display: inline-block;
+      background: var(--navy);
+      color: #fff;
+      border-radius: 20px;
+      padding: 6px 16px;
+      margin: 5px;
+      font-size: 0.9rem;
+    }
+
+    /* STATS */
+    .stat-box {
+      text-align: center;
+      padding: 30px 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+    }
+    .stat-box .number { font-size: 2.5rem; font-weight: 700; color: var(--gold); }
+    .stat-box .label { color: #555; font-size: 0.95rem; }
+
+    /* FOOTER */
+    footer { background: var(--navy); color: #aaa; padding: 30px 0; text-align: center; }
+    footer a { color: var(--gold); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Will Rushing</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon" style="filter:invert(1)"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Résumé</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="scratch.html">My Hobbies</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <p class="subtitle mb-2">Finance & Business</p>
+        <h1>Will S. Rushing</h1>
+        <p class="lead mt-3 mb-4">Pre-Business student at Brigham Young University with a 3.83 GPA, a passion for finance, real estate, and building real-world impact through sharp analytical thinking.</p>
+        <a href="#resume" class="btn btn-gold btn-lg me-3">View Résumé</a>
+        <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="about" style="padding: 50px 0; background: #f0f4f9;">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-6 col-md-3">
+        <div class="stat-box">
+          <div class="number">3.83</div>
+          <div class="label">GPA at BYU</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-box">
+          <div class="number">2</div>
+          <div class="label">Languages (French & Swahili)</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-box">
+          <div class="number">$4K+</div>
+          <div class="label">Entrepreneurial Revenue</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-box">
+          <div class="number">4.3</div>
+          <div class="label">Golf Handicap Index</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+  <div class="container">
+    <h2 class="section-title">Résumé</h2>
+
+    <h4 class="mb-3 text-muted">Education</h4>
+    <div class="resume-card">
+      <h5>Brigham Young University</h5>
+      <div class="date-loc">Pre-Business &nbsp;|&nbsp; Provo, UT &nbsp;|&nbsp; Expected Apr 2028</div>
+      <ul>
+        <li>GPA: 3.83 / 4.00</li>
+        <li>Active member of BYU Real Estate Association</li>
+        <li>Participant – 2026 BYU Private Banking & Wealth Management NYC Net Trek</li>
+        <li>Participant – 2026 BYU Private Banking & Wealth Management Wasatch Front Net Trek</li>
+        <li>Attendee – 2026 BYU Financial Services Conference</li>
+        <li>Attendee – 2025 BYU Global Real Estate Conference</li>
+      </ul>
+    </div>
+
+    <h4 class="mb-3 mt-4 text-muted">Experience</h4>
+
+    <div class="resume-card">
+      <h5>Tax Policy Ways & Means Committee Case Competition</h5>
+      <div class="date-loc">Participant &nbsp;|&nbsp; Provo, UT &nbsp;|&nbsp; Feb 2026</div>
+      <ul>
+        <li>Developed a deficit-neutral investment proposal for a simulated briefing to U.S. Ways & Means committee staff</li>
+        <li>Evaluated trade-offs between economic growth, fiscal impact, and administrative feasibility under post-2025 federal tax law</li>
+      </ul>
+    </div>
+
+    <div class="resume-card">
+      <h5>Private Equity / Venture Capital LBO Case Competition</h5>
+      <div class="date-loc">Participant &nbsp;|&nbsp; Provo, UT &nbsp;|&nbsp; Nov 2025</div>
+      <ul>
+        <li>Built a paper LBO model on Build-A-Bear Workshop with a 3-student team based on public financials</li>
+        <li>Presented pitch deck to a panel of judges and defended assumptions, growth projections, MoM, and IRR</li>
+      </ul>
+    </div>
+
+    <div class="resume-card">
+      <h5>BYU Broadcasting – BYUtv (collegiate sports network)</h5>
+      <div class="date-loc">Student Producer – BYU Sports Nation &nbsp;|&nbsp; Provo, UT &nbsp;|&nbsp; Sep 2022 – May 2023</div>
+      <ul>
+        <li>Analyzed complex sports statistics and trends to create compelling narratives for daily broadcasts</li>
+        <li>Covered live events for Men's Football & Basketball and Women's Soccer, Volleyball, and Basketball</li>
+        <li>Constructed b-roll highlight packages to illustrate topics of discussion</li>
+      </ul>
+    </div>
+
+    <div class="resume-card">
+      <h5>Rocket Express Car Wash</h5>
+      <div class="date-loc">Shift Lead / Manager &nbsp;|&nbsp; Provo, UT &nbsp;|&nbsp; Mar 2020 – May 2022</div>
+      <ul>
+        <li>Managed cash and cash equivalents, maintaining accurate ledgers and financial reports</li>
+        <li>Organized shifts of 20+ employees, balancing schedules and maintaining high team satisfaction</li>
+      </ul>
+    </div>
+
+    <div class="resume-card">
+      <h5>Rushing Resale (self-startup sneaker resale company)</h5>
+      <div class="date-loc">Product Resale Strategist &nbsp;|&nbsp; Vancouver, WA &nbsp;|&nbsp; Jan 2016 – Jun 2022</div>
+      <ul>
+        <li>Managed inventory, pricing strategy, and customer communications across peer-to-peer platforms</li>
+        <li>Generated over $4,000 in profit through strategic sourcing, negotiation, and calculated risk-taking</li>
+        <li>Built repeat customer base and brand trust through networking with producers and sneaker retailers</li>
+      </ul>
+    </div>
+
+    <h4 class="mb-3 mt-4 text-muted">Leadership & Service</h4>
+    <div class="resume-card">
+      <h5>The Church of Jesus Christ of Latter-day Saints</h5>
+      <div class="date-loc">Volunteer Representative &nbsp;|&nbsp; Lexington, KY &nbsp;|&nbsp; May 2023 – Jun 2025</div>
+      <ul>
+        <li>Led training for 100+ volunteers, teaching techniques to improve performance and foster a productive mindset</li>
+        <li>Coordinated logistics and events supporting community service and collaboration</li>
+        <li>Translated 80+ church services, increasing inclusivity and cohesion across linguistic barriers</li>
+      </ul>
+    </div>
+
+    <h4 class="mb-3 mt-4 text-muted">Awards & Honors</h4>
+    <div class="resume-card">
+      <ul>
+        <li>French – Advanced Fluency (ACTFL OPIc Certified)</li>
+        <li>Swahili – Advanced Fluency (ACTFL OPIc Certified)</li>
+        <li>4.3 Golf Handicap Index – GHIN Golf</li>
+        <li>1st Team All Region – Men's Golf – 2020, 2021, 2022</li>
+        <li>1st Place – Baritone Vocal Soloist – 2022 WA Solo & Ensemble Competition</li>
+        <li>Lead Role (Shrek) – High School Production of <em>Shrek: The Musical</em></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div>
+      <span class="skill-badge">Financial Modeling</span>
+      <span class="skill-badge">LBO Analysis</span>
+      <span class="skill-badge">Tax Policy</span>
+      <span class="skill-badge">Real Estate</span>
+      <span class="skill-badge">Microsoft Excel</span>
+      <span class="skill-badge">Public Speaking</span>
+      <span class="skill-badge">Team Leadership</span>
+      <span class="skill-badge">French (Advanced)</span>
+      <span class="skill-badge">Swahili (Advanced)</span>
+      <span class="skill-badge">Entrepreneurship</span>
+      <span class="skill-badge">Broadcast Production</span>
+      <span class="skill-badge">Data Analysis</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="background:#f0f4f9;">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="stat-box">
+          <i class="bi bi-envelope-fill fs-2 text-warning mb-2 d-block"></i>
+          <div class="label">wr100603@byu.edu</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="stat-box">
+          <i class="bi bi-telephone-fill fs-2 text-warning mb-2 d-block"></i>
+          <div class="label">(253) 421-7174</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="stat-box">
+          <i class="bi bi-geo-alt-fill fs-2 text-warning mb-2 d-block"></i>
+          <div class="label">Provo, UT</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p class="mb-1">Will S. Rushing &nbsp;|&nbsp; BYU Pre-Business</p>
+    <p class="mb-0">
+      <a href="mailto:wr100603@byu.edu"><i class="bi bi-envelope"></i> wr100603@byu.edu</a>
+      &nbsp;&nbsp;
+      <a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+      &nbsp;&nbsp;
+      <a href="https://github.com" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
